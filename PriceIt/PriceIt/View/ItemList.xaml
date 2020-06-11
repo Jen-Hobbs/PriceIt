@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="ItemList"
+             xmlns:local="clr-namespace:PriceIt.ViewModel"
+             x:Name="Items"
+             x:Class="PriceIt.View.ItemList">
+    <ContentPage.BindingContext>
+        <local:AllItems/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Entry Text="{Binding AddName}"/>
+            <Entry Text="{Binding AddCategory}"/>
+            <Button Text="Submit" Command="{Binding Submit}"/>
+            <Button Text="Delete All" Command="{Binding DeleteAll}"/>
+            <!-- Place new controls here -->
+            <ListView ItemsSource="{Binding Info}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding Name}"/>
+                                <Button Text="x" Command="{Binding Source={x:Reference Name=Items}, Path=BindingContext. Delete}" CommandParameter="{Binding ID}"/>
+                                <!--<Button .... Command="{Binding Source={x:Reference Name=nameYourPage}, Path=BindingContext. EditarEnderecoCommand}" CommandParameter="{Binding CliEndCep}" ... />-->
+                                <!--<Button Text="x" CommandParameter="{Binding ID}" Command="{Binding Source={x:Reference Items}, Path=BindingContext. Delete}"/>-->
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
