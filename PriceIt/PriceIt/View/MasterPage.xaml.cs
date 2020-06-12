@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PriceIt.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,18 @@ namespace PriceIt.View
         {
             InitializeComponent();
         }
+        public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Console.WriteLine("on item selected");
+            var item = e.SelectedItem as CategoryModel;
+            var masterDetail = App.Current.MainPage as MasterDetailPage;
+            if (item != null)
+            {
+                masterDetail.Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+
+                masterDetail.IsPresented = false;
+            }
+        }
     }
+    
 }

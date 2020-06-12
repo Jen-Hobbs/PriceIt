@@ -16,7 +16,7 @@
     <ContentPage.Content>
         
         <StackLayout>
-            <ListView ItemsSource="{Binding Source={StaticResource versionManager}, Path=Info}">
+            <ListView ItemsSource="{Binding Info}" ItemSelected="OnItemSelected">
 
                 <ListView.ItemTemplate>
                     <DataTemplate>

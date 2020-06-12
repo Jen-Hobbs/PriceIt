@@ -3,6 +3,7 @@ using PriceIt.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -11,23 +12,32 @@ namespace PriceIt.ViewModel
 {
     public class Category : BaseVM
     {
-        private static ObservableCollection<CategoryModel> list;
+        private ObservableCollection<CategoryModel> list;
         public Category()
         {
             
             Pages();
+            MessagingCenter.Subscribe<CategoryModel>(this, "update", (category)=>
+            {
+                Info.Add(category);
+                OnPropertyChanged("Info");
+            });
             
         }
-        public static ObservableCollection<CategoryModel> Info
+        public ObservableCollection<CategoryModel> Info
         {
-            get { Console.WriteLine("accessing list");  return list; }
+            get { return list; }
             set { list = value; }
         }
         public async Task Pages()
         {
             list = new ObservableCollection<CategoryModel>();
             Console.WriteLine("test");
-            
+            list.Add(new CategoryModel
+            {
+                Title = "test",
+                TargetType = typeof(Test)
+            });
             list.Add(new CategoryModel
             {
                 Title = "All Items",
@@ -44,8 +54,10 @@ namespace PriceIt.ViewModel
                 });
             }
             OnPropertyChanged("Info");
-            
+
+
         }
+
 
     }
 }

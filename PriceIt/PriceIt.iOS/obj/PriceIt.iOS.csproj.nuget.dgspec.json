@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj": {}
+    "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj": {
+    "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj",
         "projectName": "PriceIt.iOS",
-        "projectPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj",
-        "packagesPath": "C:\\Users\\Rahobbs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj",
+        "packagesPath": "C:\\Users\\Jen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rahobbs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj": {
-                "projectPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj"
+              "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj": {
+                "projectPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj"
               }
             }
           }
@@ -69,20 +69,21 @@
         }
       }
     },
-    "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj": {
+    "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj",
+        "projectUniqueName": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj",
         "projectName": "PriceIt",
-        "projectPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj",
-        "packagesPath": "C:\\Users\\Rahobbs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\obj\\",
+        "projectPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj",
+        "packagesPath": "C:\\Users\\Jen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rahobbs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -136,7 +137,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -90,23 +90,12 @@ namespace PriceIt.ViewModel
                 Category = AddCategory
             });
             await AddDB();
-            foreach(ItemDB a in Info)
+
+            MessagingCenter.Send<CategoryModel>(new CategoryModel
             {
-                Debug.WriteLine(a.Name);
-                Debug.WriteLine(a.ID);
-            }
-            bool testCat = false;
-            foreach(CategoryModel a in Category.Info)
-            {
-                if(a.Title == AddCategory)
-                {
-                    testCat = true;
-                }
-            }
-            if(testCat == false)
-            {
-                Category.Info.Add(new CategoryModel {Title = AddCategory, TargetType =  typeof(ItemList)});
-            }
+                Title = AddCategory,
+                TargetType = typeof(AllItems)
+            }, "update");
             
         }
     

@@ -2146,24 +2146,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rahobbs\\.nuget\\packages\\": {},
+    "C:\\Users\\Jen\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.Android\\PriceIt.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.Android\\PriceIt.Android.csproj",
       "projectName": "PriceIt.Android",
-      "projectPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.Android\\PriceIt.Android.csproj",
-      "packagesPath": "C:\\Users\\Rahobbs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt.Android\\obj\\",
+      "projectPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.Android\\PriceIt.Android.csproj",
+      "packagesPath": "C:\\Users\\Jen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rahobbs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2177,8 +2177,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj": {
-              "projectPath": "C:\\Users\\Rahobbs\\source\\repos\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj"
+            "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj": {
+              "projectPath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj"
             }
           }
         }
