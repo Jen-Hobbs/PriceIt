@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IXQIeJTV1jN4l9geH4AO0Bn4g3F5kzBe303WgBgiR6PYE46gQ5BHzf2uk6uMPzojWImW/dcYpOoCyKuDOU1e/w==",
+  "dgSpecHash": "dSxidPQ66QnFt2ucP0rMZvXe8/lWLAiCRQe6GMgDAk4qEzWumRkB+7Ox8fjX3IUSHpB1Aznwmcxx+V4pEkJsdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt\\PriceIt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jen\\.nuget\\packages\\rg.plugins.popup\\1.2.0.223\\rg.plugins.popup.1.2.0.223.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

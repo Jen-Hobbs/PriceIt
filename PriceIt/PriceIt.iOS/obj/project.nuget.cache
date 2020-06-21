@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r7V6rlAhymP63MXKsOjJHNrz8Q6TZl6lsoYz911wr3UWcd0XUXBMshTfcYhpVeVwj67mfqvGJNORaeOQ5vGwtw==",
+  "dgSpecHash": "7QOR+UE5L7VBMzbGBT8af9bKaDiGwQjvd1mR2dRYzr66XIHEbgi7Wfwhcbf+7Uh7U5ZY4Fejnxayi5pqP6khKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.iOS\\PriceIt.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jen\\.nuget\\packages\\rg.plugins.popup\\1.2.0.223\\rg.plugins.popup.1.2.0.223.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PriceIt.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,14 @@ namespace PriceIt.View
         public ItemList()
         {
             InitializeComponent();
+            BindingContext = new PriceIt.ViewModel.AllItems();
+            Title = "All Items";
+        }
+        public ItemList(CategoryModel cat)
+        {
+            InitializeComponent();
+            Title = cat.Title;
+            BindingContext = new PriceIt.ViewModel.AllItems(cat);
         }
     }
 }

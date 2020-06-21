@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7LmBX2YVc+7BKpiqDKlcIrjTwRvMOI9py5sUwqzpM1M4hkXKPClCnXBQ+fSBy4/fiqbO0kGHiUF8Qu7/wnOwyw==",
+  "dgSpecHash": "wH1vtEtFsAax07kitMV4P3s1Hu83K1UxoVtr7lo8UCEdZvc/M4xvggypLhzK1ZWAanfQECrS5TuroV+QcDMOAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jen\\Documents\\PriceIt\\PriceIt\\PriceIt\\PriceIt.Android\\PriceIt.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jen\\.nuget\\packages\\rg.plugins.popup\\1.2.0.223\\rg.plugins.popup.1.2.0.223.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Jen\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

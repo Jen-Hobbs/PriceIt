@@ -12,7 +12,7 @@ namespace PriceIt.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Test : ContentPage
     {
-        public Test()
+        public Test(PriceIt.Model.CategoryModel cat)
         {
             InitializeComponent();
         }

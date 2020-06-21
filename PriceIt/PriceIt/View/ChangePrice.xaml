@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             mc:Ignorable="d"
+             x:Name="change"
+             x:Class="PriceIt.View.ChangePrice">
+    
+    <Frame HorizontalOptions="Center" VerticalOptions="Center" 
+           BackgroundColor="White" Margin="20" Padding="20">
+        <StackLayout>
+            <Label Text="{Binding Source={x:Reference Name=change}, Path=BindingContext. Item.Name, StringFormat='Item Name: &quot;{0}&quot;'}"/>
+            <Label Text="{Binding Source={x:Reference Name=change}, Path=BindingContext. Item.MinPrice, StringFormat='Min Price: $&quot;{0}&quot;'}"/>
+            <Label Text="{Binding Source={x:Reference Name=change}, Path=BindingContext. Item.MaxPrice, StringFormat='MaxPrice: $&quot;{0}&quot;'}"/>
+            <Entry Text="{Binding ChangePrice}"/>
+            <Button Command="{Binding OnUpdatePrice}">Update Price</Button>
+        </StackLayout>
+    </Frame>
+</pages:PopupPage>

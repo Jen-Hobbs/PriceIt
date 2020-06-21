@@ -8,27 +8,56 @@
              xmlns:local="clr-namespace:PriceIt.ViewModel"
              x:Name="Items"
              x:Class="PriceIt.View.ItemList">
-    <ContentPage.BindingContext>
-        <local:AllItems/>
-    </ContentPage.BindingContext>
+
     <ContentPage.Content>
 
         <StackLayout>
-            <Entry Text="{Binding AddName}"/>
-            <Entry Text="{Binding AddCategory}"/>
-            <Button Text="Submit" Command="{Binding Submit}"/>
-            <Button Text="Delete All" Command="{Binding DeleteAll}"/>
+            <Entry IsVisible="{Binding SetVisable}" Text="{Binding AddName}" Placeholder="Product"/>
+            <StackLayout IsVisible="{Binding SetVisable}" Orientation="Horizontal">
+                <Entry HorizontalOptions="FillAndExpand" Text="{Binding AddCategory}" Placeholder="{Binding PageCategory}"/>
+                <Entry HorizontalOptions="FillAndExpand" Text="{Binding AddItemWeightType}" Placeholder="Weight Type"/>
+            </StackLayout>
+            <StackLayout IsVisible="{Binding SetVisable}" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Entry HorizontalOptions="FillAndExpand" Text="{Binding AddPrice}" Placeholder="Price"/>
+                <Entry HorizontalOptions="FillAndExpand" Text="{Binding AddMaxPrice}" Placeholder="Max Price Opt"/>
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Button IsVisible="{Binding SetVisable}" Text="Submit" Command="{Binding Submit}"/>
+                <Button Text="Hide Form" Command="{Binding HideForm}"/>
+            </StackLayout>
+
+
+            
+            <!--<Button Text="Delete All" Command="{Binding DeleteAll}"/>-->
             <!-- Place new controls here -->
             <ListView ItemsSource="{Binding Info}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding Name}"/>
-                                <Button Text="x" Command="{Binding Source={x:Reference Name=Items}, Path=BindingContext. Delete}" CommandParameter="{Binding ID}"/>
-                                <!--<Button .... Command="{Binding Source={x:Reference Name=nameYourPage}, Path=BindingContext. EditarEnderecoCommand}" CommandParameter="{Binding CliEndCep}" ... />-->
-                                <!--<Button Text="x" CommandParameter="{Binding ID}" Command="{Binding Source={x:Reference Items}, Path=BindingContext. Delete}"/>-->
-                            </StackLayout>
+                        <ViewCell Height="100">
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="20"/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition Width="70"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="0" Text="{Binding Name}"/>
+                                <Label  Grid.Row="1" Grid.Column="0" Text="{Binding MinPrice, StringFormat='${0}'} "/>
+                                <Label Grid.Row="1" Grid.Column="1" Text="-"/>
+                                <Label Grid.Row="1" Grid.Column="2" Text="{Binding MaxPrice, StringFormat='${0}'}"/>
+                                <Label Grid.Row="1" Grid.Column="3" Text="{Binding ItemWeightType}"/>
+                                <Button Grid.Row="0" Grid.RowSpan="2" Grid.Column="4" Text="Modify" Command="{Binding Source={x:Reference Name=Items}, Path=BindingContext. Edit}" CommandParameter="{Binding ID}"/>
+                                <Button Grid.Row="0" Grid.RowSpan="2" Grid.Column="5" Text="x" Command="{Binding Source={x:Reference Name=Items}, Path=BindingContext. Delete}" CommandParameter="{Binding ID}"/>
+
+                            </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

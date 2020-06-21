@@ -22,11 +22,12 @@ C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\View\ItemList.xaml.g.cs
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\View\MasterPage.xaml.g.cs
-C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\PriceIt.csproj.CoreCompileInputs.cache
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\PriceIt.AssemblyInfoInputs.cache
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\PriceIt.AssemblyInfo.cs
-C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\PriceIt.dll
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\ref\PriceIt.dll
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\PriceIt.pdb
 C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\View\Test.xaml.g.cs
+C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\View\ChangePrice.xaml.g.cs
+C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\PriceIt.csproj.CoreCompileInputs.cache
+C:\Users\Jen\Documents\PriceIt\PriceIt\PriceIt\PriceIt\obj\Debug\netstandard2.0\XamlC.stamp

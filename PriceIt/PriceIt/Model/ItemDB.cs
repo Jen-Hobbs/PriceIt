@@ -9,5 +9,11 @@ namespace PriceIt.Model
         public string Name { get; set; }
 
         public string Category { get; set; }
+
+        public float MaxPrice { get; set; }
+
+        public float MinPrice { get; set; }
+
+        public string ItemWeightType { get; set; }
     }
 }

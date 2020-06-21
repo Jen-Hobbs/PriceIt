@@ -16,15 +16,23 @@ namespace PriceIt.View
         public MasterPage()
         {
             InitializeComponent();
+            BindingContext = new PriceIt.ViewModel.Category();
         }
+        /// <summary>
+        /// Create page instance of items based on category
+        /// Should be moved to viewmodel at somepoint using behaviours
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             Console.WriteLine("on item selected");
             var item = e.SelectedItem as CategoryModel;
+            Console.WriteLine(item.Title);
             var masterDetail = App.Current.MainPage as MasterDetailPage;
             if (item != null)
             {
-                masterDetail.Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                masterDetail.Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType, item));
 
                 masterDetail.IsPresented = false;
             }

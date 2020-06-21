@@ -7,9 +7,6 @@
              mc:Ignorable="d"
              Title="Navigation"
              x:Class="PriceIt.View.MasterPage">
-    <ContentPage.BindingContext>
-        <local:Category/>
-    </ContentPage.BindingContext>
     <ContentPage.Resources>
         <local:Category x:Key="versionManager"/>
     </ContentPage.Resources>
@@ -17,7 +14,6 @@
         
         <StackLayout>
             <ListView ItemsSource="{Binding Info}" ItemSelected="OnItemSelected">
-
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

@@ -9,6 +9,9 @@ namespace PriceIt
     {
         static Database database;
 
+        /// <summary>
+        /// sets up database to specific folder
+        /// </summary>
         public static Database Database
         {
             get
@@ -23,8 +26,9 @@ namespace PriceIt
         public App()
         {
             InitializeComponent();
-
+            
             MainPage = new MainPage();
+            
         }
 
         protected override void OnStart()
